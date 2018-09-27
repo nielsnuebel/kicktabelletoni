@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fieldset name="box" label="COM_CONTENT_FIELDSET_FAHRZEUG_LABEL">
+		<field name="rohrlaenge" type="text"
+			   size="40" label="COM_CONTENT_FIELD_ROHRLAENGE_LABEL"
+			   description="COM_CONTENT_FIELD_ROHRLAENGE_DESC"
+		/>
+		<field name="spurweite" type="text"
+			   size="40" label="COM_CONTENT_FIELD_SPURWEITE_LABEL"
+			   description="COM_CONTENT_FIELD_SPURWEITE_DESC"
+		/>
+		<field name="laenge" type="text"
+			   size="40" label="COM_CONTENT_FIELD_LAENGE_LABEL"
+			   description="COM_CONTENT_FIELD_LAENGE_DESC"
+		/>
+		<field name="hoehe" type="text"
+			   size="40" label="COM_CONTENT_FIELD_HOEHE_LABEL"
+			   description="COM_CONTENT_FIELD_HOEHE_DESC"
+		/>
+		<field name="breite" type="text"
+			   size="40" label="COM_CONTENT_FIELD_BREITE_LABEL"
+			   description="COM_CONTENT_FIELD_BREITE_DESC"
+		/>
+		<field name="gewicht" type="text"
+			   size="40" label="COM_CONTENT_FIELD_GEWICHT_LABEL"
+			   description="COM_CONTENT_FIELD_GEWICHT_DESC"
+		/>
+	</fieldset>
+</form>

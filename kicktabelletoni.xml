@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="content" method="upgrade">
+    <name>plg_content_kicktabelletoni</name>
+    <author>Niels Nübel</author>
+    <creationDate>25 September 2018</creationDate>
+    <copyright>Copyright (c) 2009 - 2018 Niels Nübel</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <authorEmail>info@niels-nuebel.de</authorEmail>
+    <authorUrl>www.niels-nuebel.de</authorUrl>
+    <version>0.0.1</version>
+    <description>PLG_CONTENT_KICKTABELLETONI_XML_DESCRIPTION</description>
+
+	<files>
+		<folder>language</folder>
+		<folder>params</folder>
+        <file plugin="kicktabelletoni">kicktabelletoni.php</file>
+    </files>
+
+	<updateservers>
+		<server type="extension" priority="1" name="PLG_CONTENT_KICKFASTREADER">https://raw.githubusercontent.com/nielsnuebel/kicktabelletoni/master/update.xml</server>
+	</updateservers>
+</extension>
